@@ -1,0 +1,411 @@
+/*
+	      Master Stylesheet
+===================================	
+	Template Name : Mission-Responsive Bootstrap Template
+	Author: Maqsudul Karim
+	Author Url: http://maqsudulkarim.com
+	Description: PSD to HTML Practise
+	Version: 1.0.0
+	Tag: Agency
+
+*/	
+
+/*
+         Table of Contents
+===================================
+		1. Typography
+		2.
+		3.
+		4.
+		5.
+		6.
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+    margin: 0 auto;
+    text-align: center;
+   
+    }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 35px;
+	color: #1c1c1c;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 62px;
+	color: #ffffff;
+	line-height: 65px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #909090;
+	margin: 0;
+	padding: 0;
+}
+
+/* =====================
+      Button Start
+=====================*/
+.btn{
+	font-family:'Raleway', sans-serif;
+	font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+	width: 185px;
+	height: 55px;
+	border-radius: 0;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	transition: 0.3s all ease-in-out;
+	margin: 0 15px;
+}
+
+.btn:hover{
+	background-color: #ff5722;
+	border-color: #ff5722;
+
+}
+/* =====================
+      Button End
+=====================*/
+
+
+/* =====================
+      Slider Start
+=====================*/
+
+/*  Navbar Start*/
+.nav-link{
+	position: relative;
+	color: #ffffff !important;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 0 25px !important;
+	padding: 38px 0 !important;
+	transition: 0.3s all ease-in-out;
+	padding-left: 0rem !important;
+	padding-right: 0rem !important;
+	border-bottom: 1px solid transparent;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    left: 0;
+    top: 97px;
+    background: #ff5722;
+    transition: 0.3s all ease-in-out;   
+}
+.nav-link:hover::after{
+    width: 100%;
+    color: #ff5722 !importnat;
+}
+.nav-link:hover{
+	color: #ff5722 !important;
+}
+/*
+.nav-item:last-child .nav-link{
+	margin-right: 0 !important;
+}
+/*
+.carousel-inner{
+	position: relative;
+}
+*/
+.navbar{
+	position: fixed;
+	z-index: 1111;
+	width: 100%;
+	border-bottom: 1px solid #363636;
+	padding: 0rem 1rem !important;
+	padding-top: 18px !important;
+	box-sizing: border-box;
+}
+.navbar-toggler, .navbar-toggler span{
+	color: #ff5722;
+	border-color: #ff5722 !important;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+.secondary{
+	background-color: #000 !important;
+	box-shadow: 0px 0px 17px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container{
+
+}
+/*
+.container{
+	padding-bottom: 7px;
+}
+*/
+
+/*  Navbar End*/
+
+.carousel-image img{
+	position: relative;
+}
+.carousel-image::after{   /* Used for Slider Image Overlay */
+	content:"";
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #000000;
+	opacity: 0.6;
+}
+.carousel-caption{       /* Used for Centering Slider Content */      
+	bottom: 44%;
+	transform: translate(0,50%);
+	-webkit-transform: translate(0,50%);
+	-moz-transform: translate(0,50%);
+}
+.carousel-content p{
+	color: #ffffff;
+	padding: 20px 0;
+}
+.banner-button{
+    margin-top: 50px;
+}
+.prev i, .next i{
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #383939;
+	padding: 3px 11px;
+}
+.prev i:hover, .next i:hover{
+	background-color: #ff5722;
+}
+.carousel-indicators{
+	margin-bottom: 3rem;
+}
+.carousel-indicators li{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.carousel-indicators .active{
+	background-color: #ff5722;
+	border-color: #ff5722;
+}
+
+/* =====================
+      Slider End
+=====================*/
+.about-us{
+	margin: 90px 0 40px 0;
+}
+.about-us h3, .services h3, .team h3, .portfolio h3{
+	margin: 15px 0;
+}
+.about-us span, .services span, .team span, .portfolio span{
+	border-bottom: 2px solid #ff5722;
+	display: block;
+	width: 55px;
+	margin: auto;
+}
+.about-us p, .services p, .team p, .portfolio p{
+	margin: 23px;
+	line-height: 28px;
+}
+.mission{
+	margin: 70px 0 90px 0;
+}
+.mission h3{
+	font-size: 22px;
+	line-height: 22px;
+	color: #ff5722;
+	margin: 0;
+}
+.mission p{
+	font-size: 14px;
+	margin: 30px 27px 30px 0;
+}
+.achivement{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/team.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.overlay{
+	padding: 135px 0;
+}
+.achivement span{
+	border-bottom: 2px solid #ff5722;
+	display: block;
+	width: 15px;
+	margin: 0 auto;
+}
+.achivement i{
+	font-size: 25px;
+	color: #ff5722;
+	margin: 10px 0 5px 0;
+}
+.achivement p{
+	margin: 10px 0;
+	color: #ffffff;
+}
+.achivement .big{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.services{
+	margin: 90px 0 100px 0;
+}
+.services-content{
+	/*margin: 100px 0 70px 0; */
+    margin-bottom: 60px;
+}
+.service{
+	text-align: left;
+}
+
+.service i{
+	font-size: 30px;
+	color: #ff5722;
+}
+.service span{
+	margin-left: 0;
+	width: 25px;
+}
+.service h4{
+	font-family:'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	margin: 20px 0 5px 0; 
+	padding: 0;
+}
+.service p{
+	margin: 6px 0;
+}
+.performance{
+	height: ;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/portfolio.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.team{
+	margin-top: 90px;
+}
+.team-member{
+	position: relative;
+	margin: 15px 0;
+}
+.team-member::before{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ff5722;
+    opacity: 0;
+    left: 0;
+    transform: scale(0);
+    transition: 0.3s all ease-in-out;
+}
+.team-member:hover::before{
+	opacity: 0.7;
+	transform: scale(1);
+}
+.team-img img{
+	width: 100%;
+}
+.team-detail{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-44%);
+	opacity: 0;
+	transition: 0.5s all ease-in-out;
+}
+.team-member:hover .team-detail{
+	opacity: 1;
+}
+.team-detail h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.team-detail span{
+	width: 20px;
+	border-color: #ffffff;
+}
+.team-detail p{
+	margin: 0 0 25px 0;
+	color: #ffffff;
+}
+.team-social ul{
+	margin: 0;
+	padding: 0;
+}
+.team-social ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 7px;
+	font-size: 16px;
+	color: #ffffff;
+}
+tspan{
+	font-family: 'Open Sans', sans-serif;
+}
+.item p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: 20px;
+	text-align: center;
+}
+.perm{
+	padding: 130px 0;
+	width: 100%;
+}
+.pp{
+	
+}
+.percent{
+	width: 160px;
+	height: 160px;
+}
+.portfolio{
+	margin-top: 70px;
+}
+
+

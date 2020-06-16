@@ -1,0 +1,205 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+     .navbar{
+     	background-color: #000000;
+     	position: relative;
+     }
+     .navbar-nav{
+     	padding: 30px 0!important;
+     	width: 65px;
+     	margin: 0 auto;
+     }
+     .nav-link{
+     	margin:  0!important;
+	    padding: 0!important;
+	    padding: 10px 0!important;
+     }
+     .mission p{
+	 font-size: 12px;
+	 line-height: 16px;
+	 margin: 20px 10px 40px 10px;
+	 text-align: center;
+     }
+     .mission h3{
+     	font-size: 18px;
+     	text-align: center;
+     }
+     .overlay{
+     	padding: 10px 0;
+     }
+     .percent{
+	  height: 110px;
+	  width: 110px;
+    }
+    .perm{
+     	padding: 30px 0;
+     }
+     
+     .percent{
+	  height: 80px;
+	  width: 80px;
+    }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     .navbar{
+     	background-color: #000000;
+     	position: relative;
+     }
+     .navbar-nav{
+     	padding: 30px 0!important;
+     	width: 65px;
+     	margin: 0 auto;
+     }
+     .nav-link{
+     	margin:  0!important;
+	    padding: 0!important;
+	    padding: 10px 0!important;
+     }
+     .about-us{
+     	margin: 50px 0 0 0;
+     }
+     .mission{
+	   margin: 30px 0 40px 0;
+     }
+     .services{
+	  margin: 50px 0 60px 0;
+     }
+     .team{
+     	margin-top: 50px;
+     }
+     .mission p{
+	 font-size: 12px;
+	 line-height: 16px;
+	 margin: 20px 10px 40px 10px;
+     }
+     .mission h3{
+     	font-size: 18px;
+     	text-align: center;
+     }
+     .overlay{
+     	padding: 20px 0;
+     }
+     .perm{
+     	padding: 60px 0;
+     }
+     
+     .percent{
+	  height: 110px;
+	  width: 110px;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+     h2{
+     	font-size: 40px;
+     }
+     .carousel-content p{
+     	font-size: 10px;
+     	font-weight: 300;
+     }
+     .btn{
+	
+	  font-size: 12px;
+      line-height: 16px;
+      font-weight: 500;
+	  width: 165px;
+	  height: 45px;
+	
+     }
+     .navbar{
+     	background-color: #000000;
+     	position: relative;
+     }
+     .navbar-nav{
+     	padding: 30px 0!important;
+     	width: 65px;
+     	margin: 0 auto;
+     }
+     .nav-link{
+     	margin:  0!important;
+	    padding: 0!important;
+	    padding: 10px 0!important;
+     }
+     .carousel-caption{
+     	bottom: 60%;
+     }
+      .about-us{
+     	margin: 50px 0 0 0;
+     }
+     .mission{
+	   margin: 30px 0 40px 0;
+     }
+     .services{
+	  margin: 50px 0 60px 0;
+     }
+     .services-content{
+     	margin-bottom: 40px;
+     }
+     .mission p{
+	 font-size: 12px;
+	 line-height: 16px;
+	 margin: 0;
+     }
+     .mission h3{
+     	font-size: 18px
+     }
+     .overlay{
+     	padding: 50px 0;
+     }
+     .perm{
+     	padding: 60px 0;
+     } 
+     .percent{
+	  height: 140px;
+	  width: 140px;
+    }
+}
+
+ 
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+     h2{
+     	font-size: 45px;
+     }
+     .carousel-content p{
+     	font-size: 11px;
+     	font-weight: 300;
+     }
+     .btn{
+	  font-size: 12px;
+      line-height: 16px;
+      font-weight: 500;
+	  width: 165px;
+	  height: 45px;
+     }
+     .about-us{
+     	margin: 50px 0 0 0;
+     }
+     .mission{
+	   margin: 30px 0 40px 0;
+     }
+     .services{
+	  margin: 50px 0 60px 0;
+     }
+     .services-content{
+     	margin-bottom: 40px;
+     }
+     .mission p{
+	 font-size: 14px;
+	 line-height: 20px;
+     }
+     .overlay{
+     	padding: 50px;
+     }
+     .perm{
+     	padding: 90px 0;
+     }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+ }
